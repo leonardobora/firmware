@@ -1,0 +1,10 @@
+{
+  "triggers": [
+    {"name": "wrist_lift", "source": "ACCEL", "pattern": "wrist_tilt", "action": "screen_wake", "contexts": ["any"]},
+    {"name": "shake_left_2x", "source": "ACCEL", "pattern": "shake_x:2:negative", "action": "open_assistant", "contexts": ["watchface"]},
+    {"name": "shake_right_2x", "source": "ACCEL", "pattern": "shake_x:2:positive", "action": "open_hacker", "contexts": ["watchface"]},
+    {"name": "double_click_power", "source": "BUTTON", "pattern": "double_click:POWER", "action": "music_toggle", "contexts": ["any"]},
+    {"name": "tap_avatar", "source": "TOUCH", "pattern": "tap:avatar", "action": "open_launcher", "contexts": ["watchface"]},
+    {"name": "hold_power_3s", "source": "BUTTON", "pattern": "hold:POWER:3000", "action": "deep_sleep", "contexts": ["any"]}
+  ]
+}

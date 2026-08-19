@@ -24,3 +24,13 @@ lib/mquickjs_headers/mqjs_stdlib_generator.exe
 .github/agents/Bruce-AI.agent.md
 .idea
 .ai
+
+# Python
+server/.venv/
+server/__pycache__/
+server/src/__pycache__/
+server/scripts/__pycache__/
+*.pyc
+.venv/
+__pycache__/
+.superpowers/
